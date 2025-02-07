@@ -1,0 +1,238 @@
+# -For-Loop-Basics-
+1) Print numbers from 1 to 10 using for loop:
+for i in range(1, 11):
+    print(i)
+
+
+2)Print the first 10 even numbers using for loop:
+for i in range(2, 21, 2):
+    print(i)
+
+
+3)Print the first 10 odd numbers using a for loop:
+for i in range(1, 20, 2):
+    print(i)
+
+
+4)Print the square of numbers from 1 to 10 using a for loop:
+for i in range(1, 11):
+    print(i**2)
+
+
+5)Print the cube of numbers from 1 to 10 using a for loop:
+for i in range(1, 11):
+    print(i**3)
+
+
+6)Print all characters of the string "Python" using a for loop:
+for c in "Python":
+    print(c)
+
+
+
+7)Print each element of the list [5, 10, 15, 20, 25] using a for loop:
+m= [5, 10, 15, 20, 25]
+for element in m:
+    print(element)
+
+
+8)Print all numbers from 1 to 20 that are divisible by 3:
+for i in range(1, 21):
+    if i % 3 == 0:
+        print(i)
+
+
+9)Print the sum of the first 10 natural numbers using a for loop:
+sum = 0
+for i in range(1, 11):
+    sum += i
+print(sum)
+
+
+10)Print the product of the first 5 natural numbers using a for loop:
+p = 1  
+for i in range(1, 6): 
+    p *= i  
+print(p)  
+
+
+11)Print all keys from the dictionary: Student = {“name”:”Ravi” , “age”:20, “grade”: 20}
+Student = {"name": "Ravi", "age": 20, "grade": 20}
+for key in Student.keys():
+    print(key)
+
+
+12)Print all values from the dictionary above using a for loop:
+S = {"name": "sravani", "age": 20, "college":"klmcew" }
+
+for value in S.values():
+    print(value)
+
+
+
+13)Given a list of words ["apple", "banana", "cherry"], print each word in uppercase.
+words = ["apple", "banana", "cherry"]
+for word in words:
+    print(word.upper())
+
+
+14)Print numbers from 10 down to 1 using a for loop:
+for i in range(10, 0, -1):
+    print(i)
+
+
+15)Print every second number from 1 to 20 using a for loop
+for i in range(1, 21, 2):
+    print(i)
+
+
+16)Compute the sum of all even numbers from 1 to 50 using a for loop:
+s = 0  
+for i in range(2, 51, 2): 
+    s += i  
+print(s) 
+
+
+17)Compute the sum of all odd numbers from 1 to 50 using a for loop:
+k = 0 
+for i in range(1, 51, 2):  
+    k += i 
+print(k)  
+
+
+18)Print the first 10 multiples of 5 using a for loop:
+for i in range(1, 11):  
+    print(i * 5)  
+
+
+19)Print each element of the list [12, 45, 78, 34, 23] along with its index:
+m = [12, 45, 78, 34, 23]
+
+for index, value in enumerate(m):
+    print("Index:",index, "Value:",value)
+
+
+
+20)Given a string "hello world", print only the vowels:
+string = "hello world"
+vowels = "aeiou"
+
+for char in string:
+    if char in vowels:
+        print(char)
+
+
+21)Print numbers from 1 to 30 that are divisible by both 2 and 3:
+for i in range(1, 31):  
+    if i % 2 == 0 and i % 3 == 0:  
+        print(i)
+
+
+
+22)Given a sentence "Python is fun", print each word separately:
+sentence = "Python is fun"
+words = sentence.split() 
+for word in words:
+    print(word)
+
+
+
+23)Calculate the factorial of a given number (e.g., 6!) using a for loop:
+n= 6  
+factorial = 1  
+for i in range(1, n + 1):
+    factorial *= i  
+print(factorial) 
+
+
+24)Given a list [3, 6, 9, 12], create a new list where each element is squared:
+list = [3, 6, 9, 12]
+s = []
+for x in list:
+    s.append(x ** 2)
+print(s)
+
+
+25)Given a list of numbers, print only the numbers that are greater than 50:
+numbers = [23, 56, 12, 89, 45, 67, 32, 78]
+for number in numbers:
+    if number > 50:
+        print(number)
+
+
+
+26)Print numbers from 1 to 100 that are perfect squares:
+for i in range(1,11):  
+    print(i ** 2) 
+
+
+27) Given a string "Python Programming", count and print the number of vowels.
+string = "Python Programming"
+vowels = "aeiouAEIOU" 
+count = 0
+for char in string:
+    if char in vowels:
+        count += 1
+print("Number of vowels:", count)
+
+
+
+28)Print numbers from 1 to 50, but replace multiples of 5 with "Buzz":
+for i in range(1, 51):
+    if i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+
+
+29)Print numbers from 1 to 50, but replace multiples of 3 with "Fizz"
+for i in range(1, 51):
+    if i % 3 == 0:
+        print("Fizz")
+    else:
+        print(i)
+
+
+30)Print numbers from 1 to 50, but replace multiples of 3 and 5 with "FizzBuzz":
+for i in range(1, 51):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    else:
+        print(i)
+
+
+
+31)Given a number, check if it is prime using a for loop
+n = int(input())  
+for i in range(2, n):
+    if n % i == 0:
+        print("Not a prime number")
+        break
+else:
+    if n > 1:  
+        print("Prime number")
+    else:
+        print("Not a prime number")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
